@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите первое число");
+﻿// task2
+Console.WriteLine("Введите первое число");
 int Number1 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число");
