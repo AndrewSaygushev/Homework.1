@@ -36,3 +36,17 @@ max = Number3;
 }
 
 Console.WriteLine($"Наибольшее из введеных чисел - {max}");
+
+// task6
+Console.WriteLine("Введите число");
+int Number = Convert.ToInt32(Console.ReadLine());
+
+if (Number % 2 == 0)
+{
+Console.WriteLine($"{Number} -> да");
+}
+else
+{
+Console.WriteLine($"{Number} -> нет");
+}
+Console.WriteLine();
