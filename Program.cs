@@ -50,3 +50,18 @@ else
 Console.WriteLine($"{Number} -> нет");
 }
 Console.WriteLine();
+
+// task8
+int i = 1;
+Console.WriteLine("Введите число");
+int Number = Convert.ToInt32(Console.ReadLine());
+
+while (i < Number)
+{
+if (i % 2 == 0)
+{
+Console.Write($"{i},");
+}
+i++;
+}
+Console.WriteLine();
